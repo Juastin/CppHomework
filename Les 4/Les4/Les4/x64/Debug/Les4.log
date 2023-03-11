@@ -1,0 +1,7 @@
+﻿  Article.cpp
+  ClothingStore.cpp
+C:\Users\juspa\Documents\projects\school\C++\Les 4\Les4\Les4\ClothingStore.h(9,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\juspa\Documents\projects\school\C++\Les 4\Les4\Les4\ClothingStore.h(9,10): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Les4.cpp
+  Generating Code...
+  Les4.vcxproj -> C:\Users\juspa\Documents\projects\school\C++\Les 4\Les4\x64\Debug\Les4.exe
