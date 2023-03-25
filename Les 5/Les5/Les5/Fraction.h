@@ -12,10 +12,17 @@ public:
 	Fraction();
 	Fraction(const int, const int);
 	string toString() const;
+
+
 	friend Fraction operator*(const Fraction& lhs, const Fraction& rhs);
-
-
+	friend Fraction operator+(const Fraction& lhs, const Fraction& rhs);
+	friend Fraction operator-(const Fraction& lhs, const Fraction& rhs);
+	friend Fraction operator/(const Fraction& lhs, const Fraction& rhs);
+	//friend Fraction operator+=(const Fraction& lhs, const Fraction& rhs);
 };
 ostream& operator<<(ostream&, Fraction);
 Fraction operator*(const Fraction& lhs, const Fraction& rhs);
-
+Fraction operator+(const Fraction& lhs, const Fraction& rhs);
+Fraction operator-(const Fraction& lhs, const Fraction& rhs);
+Fraction operator/(const Fraction& lhs, const Fraction& rhs);
+//Fraction operator+=(const Fraction& lhs, const Fraction& rhs);

@@ -15,8 +15,8 @@ public:
 	String& operator+=(const String&);
 	char operator[](const int) const;
 
-	char* toString();
-	int length();
+	char* toString() const;
+	int length() const;
 };
 
 void replace(const int beg, const String&);
