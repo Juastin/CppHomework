@@ -28,8 +28,10 @@ public:
 	void RecInsert(T, Node<T>*);
 	void Traverse();
 	void RecTraverse(Node<T>*);
-	typename Node<T>::Node<T>* Root;
-	string S;
+	Node<T>* Remove(T x, Node<T>*);
+	Node<T>* MinValueNode(Node<T>*);
+	typename Node<T>::Node* Root;
+	//string S;
 
 };
 

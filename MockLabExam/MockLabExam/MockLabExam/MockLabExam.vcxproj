@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Les 5\Les5\Les5\Fraction.cpp" />
     <ClCompile Include="MockLabExam.cpp" />
     <ClCompile Include="BinarySearchTree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Les 5\Les5\Les5\Fraction.h" />
     <ClInclude Include="BinarySearchTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

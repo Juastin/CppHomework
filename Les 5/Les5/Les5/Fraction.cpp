@@ -22,6 +22,7 @@ ostream& operator<<(ostream& stream, Fraction f) {
 	stream << f.toString();
 	return stream;
 }
+
 Fraction operator*(const Fraction& lhs, const Fraction& rhs) {
 	Fraction f(lhs.numerator * rhs.numerator, lhs.denumerator * rhs.denumerator);
 	return f;
@@ -38,9 +39,9 @@ Fraction operator/(const Fraction& lhs, const Fraction& rhs) {
 	Fraction f(lhs.numerator / rhs.numerator, lhs.denumerator / rhs.denumerator);
 	return f;
 }
-//Fraction operator+=(const Fraction& lhs, const Fraction& rhs) {
-//	//
-//}
 //Fraction operator*=(const Fraction& lhs, const Fraction& rhs) {
-//	//
+//	
+//}
+//Fraction operator+=(const Fraction& lhs, const Fraction& rhs) {
+//
 //}
