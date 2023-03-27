@@ -7,7 +7,7 @@
 int main()
 {
     std::cout << "Hello World!\n";
-    BST(1.0);
+    BST<double>* b = new BST<double>(1.0);
 }
 
 

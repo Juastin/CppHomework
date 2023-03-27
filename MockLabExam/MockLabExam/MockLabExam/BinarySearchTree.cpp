@@ -4,38 +4,43 @@
 
 using namespace std;
 
-BST::~BST() 
+template<typename T>
+BST<T>::~BST() 
 {
 	delete Root;
 	Root = nullptr;
 }
-void BST::Insert(int x) 
+
+template<typename T>
+void BST<T>::Insert(T x)
 {
 	RecInsert(x, Root);
 }
 
-void BST::RecInsert(int x, Node<double>* temp)
+template<typename T>
+void BST<T>::RecInsert(T x, Node<T>* temp)
 {
 	if (x == temp->data) return;
 	if (x < temp->data && temp->left == nullptr) 
 	{
-		temp->left = new Node<double>(x);
+		temp->left = new Node<T>(x);
 		return;
 	}
 	if (x > temp->data && temp->right == nullptr)
 	{
-		temp->right = new Node<double>(x);
+		temp->right = new Node<T>(x);
 		return;
 	}
 	if (x > temp->right->data) RecInsert(x, temp->right);
 	if (x < temp->left->data) RecInsert(x, temp->left);
 }
-void BST::Traverse()
+template<typename T>
+void BST<T>::Traverse()
 {
 	RecTraverse(Root);
 }
-
-void BST::RecTraverse(Node<double>* temp)
+template<typename T>
+void BST<T>::RecTraverse(Node<T>* temp)
 {
 	if (temp == nullptr) 
 		return;

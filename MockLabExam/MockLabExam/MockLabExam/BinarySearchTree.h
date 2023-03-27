@@ -1,29 +1,40 @@
 #pragma once
+
+template<typename T>
+struct Node
+{
+	T data;
+	Node<T>* left;
+	Node<T>* right;
+	Node(T v) : data(v), left(nullptr), right(nullptr) {}
+};
+
 template<typename T>
 class BST
 {
-	template<typename T>
-	struct Node
-	{
-		T data;
-		Node* left;
-		Node* right;
-		Node(int v) : data(v), left(nullptr), right(nullptr) {}
-	};
 public:
 	BST() {
 		Root = new Node<T>(0);
 		Root->left = nullptr;
 		Root->right = nullptr;
 	}
+	BST(T x) {
+		Root = new Node<T>(x);
+		Root->left = nullptr;
+		Root->right = nullptr;
+	}
 	~BST();
-	void Insert(int x);
-	void RecInsert(int, typename Node<T>::Node*);
-	//void RecInsert(int, typename Node<char*>::Node*);
+	void Insert(T x);
+	void RecInsert(T, Node<T>*);
 	void Traverse();
-	void RecTraverse(typename Node<T>::Node*);
-	//void RecTraverse(typename Node<char*>::Node*);
-	typename Node<T>::Node* Root;
+	void RecTraverse(Node<T>*);
+	typename Node<T>::Node<T>* Root;
 	string S;
+
 };
+
+template class BST<int>;
+template class BST<double>;
+template class BST<char*>;
+
 
