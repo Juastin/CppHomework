@@ -18,11 +18,11 @@ public:
 	friend Fraction operator+(const Fraction& lhs, const Fraction& rhs);
 	friend Fraction operator-(const Fraction& lhs, const Fraction& rhs);
 	friend Fraction operator/(const Fraction& lhs, const Fraction& rhs);
-	//friend Fraction operator+=(const Fraction& lhs, const Fraction& rhs);
+	friend Fraction operator*=(const Fraction& lhs, const Fraction& rhs);
 };
 ostream& operator<<(ostream&, Fraction);
 Fraction operator*(const Fraction& lhs, const Fraction& rhs);
 Fraction operator+(const Fraction& lhs, const Fraction& rhs);
 Fraction operator-(const Fraction& lhs, const Fraction& rhs);
 Fraction operator/(const Fraction& lhs, const Fraction& rhs);
-//Fraction operator+=(const Fraction& lhs, const Fraction& rhs);
+Fraction operator*=(const Fraction& lhs, const Fraction& rhs);

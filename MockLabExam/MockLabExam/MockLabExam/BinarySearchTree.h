@@ -1,4 +1,7 @@
 #pragma once
+#include <string>
+#include <iostream>
+#include <sstream>
 
 template<typename T>
 struct Node
@@ -31,7 +34,7 @@ public:
 	Node<T>* Remove(T x, Node<T>*);
 	Node<T>* MinValueNode(Node<T>*);
 	typename Node<T>::Node* Root;
-	//string S;
+	std::stringstream S;
 
 };
 

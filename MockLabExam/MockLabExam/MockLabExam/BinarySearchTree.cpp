@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include <string>
 #include "BinarySearchTree.h"
 
@@ -38,6 +39,9 @@ template<typename T>
 void BST<T>::Traverse()
 {
 	RecTraverse(Root);
+	string str;
+	S >> str;
+	cout << str << endl;
 }
 
 template<typename T>
@@ -46,7 +50,7 @@ void BST<T>::RecTraverse(Node<T>* temp)
 	if (temp == nullptr) 
 		return;
 	RecTraverse(temp->left);
-	//S.append(to_string(temp->data));
+	S << temp->data << endl;
 	RecTraverse(temp->right);
 }
 
