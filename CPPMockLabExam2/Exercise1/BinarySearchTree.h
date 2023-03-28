@@ -18,7 +18,7 @@ class BST
 {
 public:
 	BST() {
-		Root = 0;
+		Root = new Node<T>(0);
 		Root->left = nullptr;
 		Root->right = nullptr;
 	}

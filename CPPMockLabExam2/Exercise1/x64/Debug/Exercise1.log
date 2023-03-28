@@ -1,122 +1,124 @@
-﻿  exercise1.cpp
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'BST<int>::~BST(void)': no suitable definition provided for explicit template instantiation request
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(30,3): message : see declaration of 'BST<int>::~BST'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::Insert(T)': no suitable definition provided for explicit template instantiation request
+﻿  BinarySearchTree.cpp
+  exercise1.cpp
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'BST<int>::~BST(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(30,3): message : see declaration of 'BST<int>::~BST'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::Insert(T)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=int
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(31,7): message : see declaration of 'BST<int>::Insert'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::RecInsert(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(31,7): message : see declaration of 'BST<int>::Insert'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::RecInsert(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=int
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(32,7): message : see declaration of 'BST<int>::RecInsert'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::Traverse(void)': no suitable definition provided for explicit template instantiation request
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(33,7): message : see declaration of 'BST<int>::Traverse'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::RecTraverse(Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(32,7): message : see declaration of 'BST<int>::RecInsert'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::Traverse(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(33,7): message : see declaration of 'BST<int>::Traverse'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::RecTraverse(Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=int
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(34,7): message : see declaration of 'BST<int>::RecTraverse'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::Remove(T)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(34,7): message : see declaration of 'BST<int>::RecTraverse'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'void BST<int>::Remove(T)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=int
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(35,7): message : see declaration of 'BST<int>::Remove'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'Node<T> *BST<T>::RecRemove(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(35,7): message : see declaration of 'BST<int>::Remove'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'Node<T> *BST<T>::RecRemove(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=int
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(36,11): message : see declaration of 'BST<int>::RecRemove'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'Node<T> *BST<T>::MinValueNode(Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(36,11): message : see declaration of 'BST<int>::RecRemove'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(43,24): warning C4661: 'Node<T> *BST<T>::MinValueNode(Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=int
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(37,11): message : see declaration of 'BST<int>::MinValueNode'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'BST<double>::~BST(void)': no suitable definition provided for explicit template instantiation request
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(30,3): message : see declaration of 'BST<double>::~BST'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::Insert(T)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(37,11): message : see declaration of 'BST<int>::MinValueNode'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'BST<double>::~BST(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(30,3): message : see declaration of 'BST<double>::~BST'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::Insert(T)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=double
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(31,7): message : see declaration of 'BST<double>::Insert'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::RecInsert(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(31,7): message : see declaration of 'BST<double>::Insert'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::RecInsert(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=double
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(32,7): message : see declaration of 'BST<double>::RecInsert'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::Traverse(void)': no suitable definition provided for explicit template instantiation request
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(33,7): message : see declaration of 'BST<double>::Traverse'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::RecTraverse(Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(32,7): message : see declaration of 'BST<double>::RecInsert'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::Traverse(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(33,7): message : see declaration of 'BST<double>::Traverse'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::RecTraverse(Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=double
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(34,7): message : see declaration of 'BST<double>::RecTraverse'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::Remove(T)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(34,7): message : see declaration of 'BST<double>::RecTraverse'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'void BST<double>::Remove(T)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=double
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(35,7): message : see declaration of 'BST<double>::Remove'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'Node<T> *BST<T>::RecRemove(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(35,7): message : see declaration of 'BST<double>::Remove'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'Node<T> *BST<T>::RecRemove(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=double
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(36,11): message : see declaration of 'BST<double>::RecRemove'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'Node<T> *BST<T>::MinValueNode(Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(36,11): message : see declaration of 'BST<double>::RecRemove'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(44,27): warning C4661: 'Node<T> *BST<T>::MinValueNode(Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=double
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(37,11): message : see declaration of 'BST<double>::MinValueNode'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'BST<char *>::~BST(void)': no suitable definition provided for explicit template instantiation request
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(30,3): message : see declaration of 'BST<char *>::~BST'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::Insert(T)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(37,11): message : see declaration of 'BST<double>::MinValueNode'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'BST<char *>::~BST(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(30,3): message : see declaration of 'BST<char *>::~BST'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::Insert(T)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=char *
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(31,7): message : see declaration of 'BST<char *>::Insert'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::RecInsert(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(31,7): message : see declaration of 'BST<char *>::Insert'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::RecInsert(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=char *
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(32,7): message : see declaration of 'BST<char *>::RecInsert'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::Traverse(void)': no suitable definition provided for explicit template instantiation request
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(33,7): message : see declaration of 'BST<char *>::Traverse'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::RecTraverse(Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(32,7): message : see declaration of 'BST<char *>::RecInsert'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::Traverse(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(33,7): message : see declaration of 'BST<char *>::Traverse'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::RecTraverse(Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=char *
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(34,7): message : see declaration of 'BST<char *>::RecTraverse'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::Remove(T)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(34,7): message : see declaration of 'BST<char *>::RecTraverse'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'void BST<char *>::Remove(T)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=char *
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(35,7): message : see declaration of 'BST<char *>::Remove'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'Node<T> *BST<T>::RecRemove(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(35,7): message : see declaration of 'BST<char *>::Remove'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'Node<T> *BST<T>::RecRemove(T,Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=char *
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(36,11): message : see declaration of 'BST<char *>::RecRemove'
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'Node<T> *BST<T>::MinValueNode(Node<T> *)': no suitable definition provided for explicit template instantiation request
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(36,11): message : see declaration of 'BST<char *>::RecRemove'
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(45,26): warning C4661: 'Node<T> *BST<T>::MinValueNode(Node<T> *)': no suitable definition provided for explicit template instantiation request
           with
           [
               T=char *
           ]
-C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(37,11): message : see declaration of 'BST<char *>::MinValueNode'
-  Exercise1.vcxproj -> C:\Users\juspa\Documents\projects\school\c++\CPPMockLabExam2\x64\Debug\Exercise1.exe
+C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\Exercise1\BinarySearchTree.h(37,11): message : see declaration of 'BST<char *>::MinValueNode'
+  Generating Code...
+  Exercise1.vcxproj -> C:\Users\juspa\Documents\projects\school\C++\CPPMockLabExam2\x64\Debug\Exercise1.exe
