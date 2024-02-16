@@ -50,7 +50,6 @@ int main()
     //cout << get_player(unit) << endl;
     make_road(&field);
     cout << has_road(field) << endl;
-
 }
 
 
